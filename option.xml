@@ -1,0 +1,60 @@
+<!-- 
+  © 2025 SpeedIT Solutions UG (haftungsbeschränkt), Isernhagen, Germany
+  This file is part of a licensed product. Redistribution or modification
+  outside the scope of the license is prohibited.
+  See: https://www.speedit.org/
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com"
+      xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/option.xsd">
+    <import>
+        <categories>
+            <category name="security.antispam.friendlycaptcha">
+                <parent>security.antispam</parent>
+            </category>
+        </categories>
+        <options>
+            <option name="friendlycaptcha_sitekey">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>text</optiontype>
+                <showorder>1</showorder>
+            </option>
+            <option name="friendlycaptcha_apikey">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>text</optiontype>
+                <showorder>2</showorder>
+            </option>
+            <option name="friendlycaptcha_version">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>select</optiontype>
+                <selectoptions><![CDATA[v1:V1
+v2:V2]]></selectoptions>
+                <defaultvalue>v2</defaultvalue>
+                <showorder>3</showorder>
+            </option>
+            <option name="friendlycaptcha_endpoint">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>select</optiontype>
+                <selectoptions><![CDATA[global:Global
+eu:EU (Enterprise only)]]></selectoptions>
+                <defaultvalue>global</defaultvalue>
+                <showorder>4</showorder>
+            </option>
+            <option name="friendlycaptcha_theme">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>select</optiontype>
+                <selectoptions><![CDATA[light:wcf.acp.option.friendlycaptcha_theme.light
+dark:wcf.acp.option.friendlycaptcha_theme.dark]]></selectoptions>
+                <defaultvalue>light</defaultvalue>
+                <showorder>5</showorder>
+            </option>
+            <option name="friendlycaptcha_language">
+                <categoryname>security.antispam.friendlycaptcha</categoryname>
+                <optiontype>text</optiontype>
+                <defaultvalue>de</defaultvalue>
+                <showorder>6</showorder>
+            </option>
+        </options>
+    </import>
+</data>

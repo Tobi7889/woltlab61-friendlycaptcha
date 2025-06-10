@@ -1,0 +1,49 @@
+<!-- 
+  © 2025 SpeedIT Solutions UG (haftungsbeschränkt), Isernhagen, Germany
+  This file is part of a licensed product. Redistribution or modification
+  outside the scope of the license is prohibited.
+  See: https://www.speedit.org/
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 name="software.speedit.woltlab.suite.core.security.antispam.friendlycaptcha"
+                 xmlns="http://www.woltlab.com"
+                 xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/package.xsd">
+        <packageinformation>
+                <packagename><![CDATA[FriendlyCaptcha for WoltLab Suite™]]></packagename>
+                <packagename language="de"><![CDATA[FriendlyCaptcha für WoltLab Suite™]]></packagename>
+                <packagedescription><![CDATA[This package provides FriendlyCaptcha for the WoltLab Suite™ Core.]]></packagedescription>
+                <packagedescription language="de">
+                        <![CDATA[Dieses Paket stellt FriendlyCaptcha für den WoltLab Suite™ Core zur Verfügung.]]></packagedescription>
+                <version>1.0.0</version>
+                <date>2025-06-10</date>
+                <packageurl><![CDATA[https://www.speedit.org]]></packageurl>
+        </packageinformation>
+
+        <authorinformation>
+                <author><![CDATA[SpeedIT Solutions]]></author>
+                <authorurl><![CDATA[https://www.speedit.org]]></authorurl>
+        </authorinformation>
+
+        <requiredpackages>
+                <requiredpackage minversion="6.1.2">com.woltlab.wcf</requiredpackage>
+        </requiredpackages>
+
+        <excludedpackages>
+                <excludedpackage version="6.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+        </excludedpackages>
+
+        <instructions type="install">
+                <instruction type="language"/>
+                <instruction type="objectType"/>
+                <instruction type="option"/>
+                <instruction type="file"/>
+                <instruction type="template"/>
+                <instruction type="templateListener"/>
+        </instructions>
+
+        <instructions type="update" fromversion="1.0.0">
+                <instruction type="template"/>
+        </instructions>
+</package>

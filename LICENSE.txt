@@ -1,0 +1,111 @@
+---- GERMAN VERSION / ENGLISH VERSION BELOW! ----
+
+Herstellerangaben:
+SpeedIT Solutions UG (haftungsbeschränkt)
+Asphalweg 26
+30916 Isernhagen
+Deutschland
+
+E-Mail: info@speedit.org
+Telefon: +49 5139 9514850 (kein technischer Support)
+Web: https://www.speedit.org
+
+§ 1 – Anwendungsbereich
+1.1 Diese Lizenzvereinbarung gilt für alle kostenpflichtigen Produktversionen, die über die Plattformen https://www.woltlab.com/ sowie https://www.speedit.org/ erhältlich sind – inklusive aller Zusatzmodule, Erweiterungen, Installationshilfen und optionalen Lizenzen, die von der SpeedIT Solutions UG (haftungsbeschränkt) (im Folgenden "Hersteller") entwickelt wurden.
+
+1.2 Es gelten ausschließlich die in diesem Dokument enthaltenen Regelungen. Abweichende Bedingungen des Kunden sowie mündliche Abreden finden keine Anwendung.
+
+1.3 Mit dem Erwerb, Herunterladen oder der Installation der Software akzeptieren Sie die nachstehenden Lizenzbedingungen. Falls Sie mit diesen nicht einverstanden sind, ist die Installation oder Nutzung der Software untersagt.
+
+1.4 Bei einem Verstoß gegen die hier festgelegten Bedingungen erlischt die Nutzungserlaubnis automatisch. In diesem Fall sind sämtliche Installationen der Software inklusive Kopien und Dokumentation dauerhaft zu entfernen und zu vernichten.
+
+1.5 Der Hersteller übernimmt keine Verantwortung für Inhalte, die durch Dritte über das Produkt veröffentlicht oder eingebunden werden. Der Hersteller fungiert weder als Anbieter eigener Inhalte im Sinne des § 8 TDG, noch als Anbieter fremder Inhalte im Sinne des § 11 TDG.
+
+§ 2 – Umfang der Lizenz
+2.1 Die Nutzungslizenz ist personalisiert und ausschließlich auf die in der Rechnung genannte Person beschränkt.
+
+2.2 Mit einer erworbenen Lizenz ist lediglich eine aktive Installation der Software erlaubt. Zusätzlich darf eine Testinstanz eingerichtet werden, die nur dem Lizenzinhaber zugänglich ist.
+
+2.3 Die Testumgebung muss durch geeignete technische Maßnahmen wie .htaccess-Schutz oder IP-Whitelist vor unbefugtem Zugriff geschützt werden.
+
+§ 3 – Kopien und Sicherungen
+3.1 Eine Vervielfältigung, Weitergabe oder öffentliche Zugänglichmachung der Software ist grundsätzlich untersagt, soweit in den folgenden Punkten nicht anders geregelt.
+
+3.2 Die Installation der Software auf einem Server gilt als notwendige Vervielfältigung und ist im Rahmen der Lizenz gestattet.
+
+3.3 Ebenso ist eine isolierte Testumgebung auf einem nur für den Lizenznehmer erreichbaren System zulässig.
+
+3.4 Das Erstellen von Sicherheitskopien ist erlaubt, sofern diese ausschließlich der Datensicherung dienen.
+
+3.5 Nur eine öffentlich zugängliche Installation pro Lizenz ist zulässig.
+
+§ 4 – Anpassungen und Änderungen
+4.1 Der Lizenznehmer darf die Software anpassen, modifizieren und funktional sowie optisch an eigene Anforderungen anpassen – dies erfolgt jedoch auf eigenes Risiko.
+
+4.2 Jegliche Urhebervermerke, Seriennummern oder andere kennzeichnende Merkmale – insbesondere sichtbare Copyright-Hinweise und enthaltene Links – dürfen ohne gesonderte Genehmigung weder entfernt noch verändert oder unkenntlich gemacht werden.
+
+4.3 Eine Entfernung sichtbarer Urheberhinweise ist ausschließlich nach Erwerb einer gesonderten Branding-Free-Lizenz zulässig.
+
+§ 5 – Haftungsausschluss
+5.1 Der Hersteller haftet nicht für Schäden, Datenverlust oder Fehlfunktionen, die aus der Nutzung der Software entstehen können.
+
+§ 6 – Rechtswahl und Gerichtsstand
+6.1 Es gilt ausschließlich deutsches Recht unter Ausschluss des UN-Kaufrechts (CISG).
+
+6.2 Für alle aus dieser Lizenz entstehenden Rechtsstreitigkeiten ist, sofern der Nutzer Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen ist, der Gerichtsstand Isernhagen.
+
+------------------------------
+
+Manufacturer Information:
+SpeedIT Solutions UG (haftungsbeschränkt)
+Asphalweg 26
+30916 Isernhagen
+Germany
+
+Email: info@speedit.org
+Phone: +49 5139 9514850 (no technical support)
+Website: https://www.speedit.org
+
+§ 1 – Scope of Application
+1.1 These licensing terms apply to all paid versions of products offered on https://www.woltlab.com/ and https://www.speedit.org/, including all add-ons, extensions, installation services, and optional licenses developed by SpeedIT Solutions UG (haftungsbeschränkt) (hereinafter referred to as "Manufacturer").
+
+1.2 Only the terms outlined in this document shall apply. Deviating conditions or verbal agreements from the customer are not recognized.
+
+1.3 By purchasing, downloading, or installing the software, you agree to the terms set forth herein. If you do not agree with these conditions, you are not permitted to install or use the software.
+
+1.4 Any violation of the licensing terms results in an immediate and automatic termination of your usage rights. Upon termination, all installations, copies, and associated documentation must be permanently deleted or destroyed.
+
+1.5 The manufacturer assumes no responsibility for third-party content published or integrated via the product. In particular, the manufacturer is neither considered a provider of proprietary content pursuant to § 8 TDG, nor a provider of third-party content under § 11 TDG.
+
+§ 2 – Scope of License
+2.1 The license is issued on a personal basis and applies exclusively to the individual named on the invoice.
+
+2.2 Each purchased license entitles the user to one active installation. Additionally, one test installation may be set up, which must be restricted to the license holder.
+
+2.3 The test installation must be protected against unauthorized access using appropriate technical means such as .htaccess authentication or IP whitelisting.
+
+§ 3 – Copies and Backups
+3.1 Copying, distributing, or making the software publicly accessible is generally not permitted unless expressly permitted in the following clauses.
+
+3.2 Installing the software on a server is considered a necessary copy and is permitted under the license terms.
+
+3.3 A separate test installation on a system accessible only to the license holder is permitted.
+
+3.4 You may create backup copies, but solely for the purpose of securing your data.
+
+3.5 Only one public installation per license is permitted.
+
+§ 4 – Modifications and Changes
+4.1 You may alter, customize, and adapt the software—both visually and functionally—to suit your own requirements, at your own risk.
+
+4.2 You may not remove or alter any copyright notices, serial numbers, or other identifiers embedded in the software or source code. This includes visible copyright references and any associated links.
+
+4.3 The removal of visible copyright notices is only permitted if a separate branding-free license has been purchased from the manufacturer.
+
+§ 5 – Disclaimer of Liability
+5.1 The manufacturer shall not be liable for any damage, data loss, or system malfunctions resulting from the use of the software.
+
+§ 6 – Governing Law and Jurisdiction
+6.1 The laws of the Federal Republic of Germany apply exclusively, excluding the provisions of the United Nations Convention on Contracts for the International Sale of Goods (CISG).
+
+6.2 If the customer is a merchant under German commercial law, a public law entity, or a special public fund, the exclusive place of jurisdiction for all legal disputes arising from this license is Isernhagen, Germany.

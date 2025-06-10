@@ -1,0 +1,35 @@
+<!-- 
+  © 2024–2025 SpeedIT Solutions UG (haftungsbeschränkt), Isernhagen, Germany
+  This file is part of a licensed product. Redistribution or modification
+  outside the scope of the license is prohibited.
+  See: https://www.speedit.org/
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" languagecode="en" xmlns="http://www.woltlab.com"
+                  xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd">
+        <import>
+                <category name="wcf.acp.option">
+                        <item name="wcf.acp.option.category.security.antispam.friendlycaptcha"><![CDATA[FriendlyCaptcha]]></item>
+                        <item name="wcf.acp.option.category.security.antispam.friendlycaptcha.description">
+                                <![CDATA[To use FriendlyCaptcha a sitekey and API key are required. These can be obtained from the <a href="https://friendlycaptcha.com/" class="externalURL">FriendlyCaptcha</a> website.]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_sitekey"><![CDATA[Site-Key]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_apikey"><![CDATA[API Key]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_version"><![CDATA[FriendlyCaptcha Version]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_endpoint"><![CDATA[Endpoint]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_theme"><![CDATA[Theme]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_theme.light"><![CDATA[Light]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_theme.dark"><![CDATA[Dark]]></item>
+                        <item name="wcf.acp.option.friendlycaptcha_language"><![CDATA[Language (e.g. de, en)]]></item>
+                </category>
+                <category name="wcf.captcha">
+                        <item name="wcf.captcha.software.speedit.woltlab.suite.core.security.antispam.friendlycaptcha">
+                                <![CDATA[FriendlyCaptcha]]></item>
+                </category>
+                <category name="wcf.friendlycaptcha">
+                        <item name="wcf.friendlycaptcha.title"><![CDATA[Verification (“FriendlyCaptcha”)]]></item>
+                        <item name="wcf.friendlycaptcha.error.friendlycaptchaString.false">
+                                <![CDATA[Please confirm that you are not a robot.]]></item>
+                </category>
+        </import>
+</language>
