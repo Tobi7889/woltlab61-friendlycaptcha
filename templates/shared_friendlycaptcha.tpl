@@ -15,9 +15,9 @@
                 {else}
                     {assign var='puzzleEndpoint' value='https://api.friendlycaptcha.com/api/v1/puzzle'}
                 {/if}
-                <div class="frc-captcha" data-sitekey="{FRIENDLYCAPTCHA_SITEKEY|encodeJS}" data-theme="{FRIENDLYCAPTCHA_THEME}" data-puzzle-endpoint="{$puzzleEndpoint}" data-lang="{FRIENDLYCAPTCHA_LANGUAGE}"></div>
+                <div class="frc-captcha" data-sitekey="{FRIENDLYCAPTCHA_SITEKEY}" data-theme="{FRIENDLYCAPTCHA_THEME}" data-puzzle-endpoint="{$puzzleEndpoint}" data-lang="{FRIENDLYCAPTCHA_LANGUAGE}"></div>
             {else}
-                <div class="frc-captcha" data-sitekey="{FRIENDLYCAPTCHA_SITEKEY|encodeJS}" data-theme="{FRIENDLYCAPTCHA_THEME}" data-api-endpoint="{FRIENDLYCAPTCHA_ENDPOINT}" lang="{FRIENDLYCAPTCHA_LANGUAGE}"></div>
+                <div class="frc-captcha" data-sitekey="{FRIENDLYCAPTCHA_SITEKEY}" data-theme="{FRIENDLYCAPTCHA_THEME}" data-api-endpoint="{FRIENDLYCAPTCHA_ENDPOINT}" lang="{FRIENDLYCAPTCHA_LANGUAGE}"></div>
             {/if}
             {if (($errorType|isset && $errorType|is_array && $errorType[friendlycaptchaString]|isset) || ($errorField|isset && $errorField == 'friendlycaptchaString'))}
                 {if $errorType|is_array && $errorType[friendlycaptchaString]|isset}
@@ -35,12 +35,12 @@
             {/if}
         </dd>
     </dl>
-    <script data-relocate="true">
+    <script>
         if (!window.FriendlyCaptcha) {
             var script = document.createElement('script');
             script.async = true;
             script.defer = true;
-            var version = '{FRIENDLYCAPTCHA_VERSION}';
+            var version = '{unsafe:FRIENDLYCAPTCHA_VERSION|encodeJS}';
             if (version === 'v1') {
                 script.type = 'module';
                 script.src = 'https://cdn.jsdelivr.net/npm/friendly-challenge@latest/widget.module.min.js';

@@ -105,7 +105,7 @@ class FriendlyCaptchaHandler implements ICaptchaHandler
                 : 'https://api.friendlycaptcha.com';
             $versionPath = '/api/v1/siteverify';
             $headers = ['content-type' => 'application/x-www-form-urlencoded'];
-            $body = http_build_query($verificationData);
+            $body = http_build_query($verificationData, '', '&');
         } else {
             $endpoint = FRIENDLYCAPTCHA_ENDPOINT === 'eu'
                 ? 'https://eu.frcapi.com'
@@ -115,7 +115,7 @@ class FriendlyCaptchaHandler implements ICaptchaHandler
                 'content-type' => 'application/x-www-form-urlencoded',
                 'X-API-KEY'    => FRIENDLYCAPTCHA_APIKEY,
             ];
-            $body = http_build_query($verificationData);
+            $body = http_build_query($verificationData, '', '&');
         }
 
         $request = new Request(

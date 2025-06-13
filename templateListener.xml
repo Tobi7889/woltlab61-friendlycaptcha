@@ -9,17 +9,5 @@
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com"
       xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/templateListener.xsd">
     <import>
-        <templatelistener name="friendlycaptchaJavaScript">
-            <eventname>javascriptInclude</eventname>
-            <environment>admin</environment>
-            <templatecode><![CDATA[{include file='shared_friendlycaptchaJavaScript'}]]></templatecode>
-            <templatename>header</templatename>
-        </templatelistener>
-        <templatelistener name="friendlycaptchaJavaScript">
-            <eventname>javascriptInclude</eventname>
-            <environment>user</environment>
-            <templatecode><![CDATA[{include file='shared_friendlycaptchaJavaScript'}]]></templatecode>
-            <templatename>headIncludeJavaScript</templatename>
-        </templatelistener>
     </import>
 </data>
