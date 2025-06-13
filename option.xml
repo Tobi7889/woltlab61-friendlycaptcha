@@ -1,11 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
   © 2025 SpeedIT Solutions UG (haftungsbeschränkt), Isernhagen, Germany
   This file is part of a licensed product. Redistribution or modification
   outside the scope of the license is prohibited.
   See: https://www.speedit.org/
 -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com"
       xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/option.xsd">
     <import>
