@@ -1,11 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
   © 2025 SpeedIT Solutions UG (haftungsbeschränkt), Isernhagen, Germany
   This file is part of a licensed product. Redistribution or modification
   outside the scope of the license is prohibited.
   See: https://www.speedit.org/
 -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  name="software.speedit.woltlab.suite.core.security.antispam.friendlycaptcha"
                  xmlns="http://www.woltlab.com"
@@ -40,7 +39,6 @@
                 <instruction type="option"/>
                 <instruction type="file"/>
                 <instruction type="template"/>
-                <instruction type="templateListener"/>
         </instructions>
 
         <instructions type="update" fromversion="1.0.0">
